@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.UserBalanceOperationsController">
+    <children>
+      <ImageView fitHeight="400.0" fitWidth="708.0" layoutX="-6.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../../../../../Users/79780/Desktop/blue_and_red.jpg" />
+         </image>
+      </ImageView>
+        <Label layoutX="283.0" layoutY="4.0" prefHeight="21.0" prefWidth="122.0" text="My First Bank App" textFill="#fff600">
+            <font>
+                <Font name="Forte" size="14.0" />
+            </font>
+        </Label>
+      <Label fx:id="welcomeUserName" layoutX="234.0" layoutY="25.0" prefHeight="103.0" prefWidth="246.0" textFill="WHITE">
+         <font>
+            <Font name="Forte" size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="welcomeUserBalance" layoutX="234.0" layoutY="140.0" prefHeight="94.0" prefWidth="246.0" text="Your balance:" textFill="WHITE">
+         <font>
+            <Font name="Forte" size="30.0" />
+         </font>
+      </Label>
+          <Label fx:id="selectAnActions" layoutX="234.0" layoutY="254.0" prefHeight="39.0" prefWidth="246.0" text="Select an actions:" textFill="WHITE">
+              <font>
+                  <Font name="Forte" size="30.0" />
+              </font>
+          </Label>
+      <TextField fx:id="amountToRefill" accessibleRole="PASSWORD_FIELD" layoutX="160.0" layoutY="300.0" opacity="0.7" prefHeight="38.0" prefWidth="212.0" promptText="Enter the amount" style="-fx-background-color: fafafa;">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </TextField>
+      <Button fx:id="refillButton" layoutX="379.0" layoutY="300.0" mnemonicParsing="false" opacity="0.7" prefHeight="39.0" prefWidth="101.0" text="Refill" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="withdrawButton" layoutX="488.0" layoutY="300.0" mnemonicParsing="false" opacity="0.7" prefHeight="39.0" prefWidth="101.0" text="Withdraw">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="comeBackButton" layoutX="316.0" layoutY="347.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="76.0" text="Sign out">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.adminControllers.AdminOperationsController">
+    <children>
+      <ImageView fitHeight="400.0" fitWidth="700.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../../../../../Users/79780/Desktop/blue_and_red.jpg" />
+         </image>
+      </ImageView>
+        <Label layoutX="283.0" layoutY="4.0" prefHeight="21.0" prefWidth="123.0" text="My First Bank App" textFill="#eeff00">
+            <font>
+                <Font name="Forte" size="14.0" />
+            </font>
+        </Label>
+      <Label fx:id="welcomeLabel" layoutX="230.0" layoutY="34.0" prefHeight="55.0" prefWidth="315.0" text="Welcome Admin!!!" textFill="WHITE">
+         <font>
+            <Font name="Forte" size="30.0" />
+         </font>
+      </Label>
+      <Button fx:id="printUsersButton" layoutX="227.0" layoutY="215.0" mnemonicParsing="false" opacity="0.4" prefHeight="37.0" prefWidth="227.0" text="Print users">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="viewAuthorizationLogButton" layoutX="227.0" layoutY="267.0" mnemonicParsing="false" opacity="0.4" prefHeight="37.0" prefWidth="227.0" text="View authorization log">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="comeBackButton" layoutX="295.0" layoutY="324.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="92.0" text="Sign out">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <ImageView fitHeight="128.0" fitWidth="135.0" layoutX="273.0" layoutY="79.0" opacity="0.35" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../Users/79780/Desktop/iconfinder_J01_20245.png" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>
